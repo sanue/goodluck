@@ -1,0 +1,40 @@
+ul.leftNav li a:hover{
+    background: #ec6c2c;
+    text-decoration: none;
+    color: white;
+}
+ul li{
+    list-style: none;
+}
+.newsContent{
+    margin-top:0cm;
+    margin-right:0cm;
+    margin-bottom:21.0pt;
+    margin-left: 0cm;
+    text-indent:24.0pt;
+    line-height:21.0pt;
+    background:white;
+}
+.newsConteneSpan{
+    font-family: 微软雅黑,sans-serif;
+}
+#history{
+    float: right;
+    display: block;
+}
+.content-left{
+    height:250px;
+}
+#pageNum>li{
+    float:left;
+}
+#pageNum>li>a {
+    float: left;
+    padding: 4px 12px;
+    /* line-height: 20px; */
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    display: inline-block;
+
+}

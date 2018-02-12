@@ -1,0 +1,239 @@
+.tipAuth {
+    border: 2px dotted #ccc;
+    text-align: center;
+    border-radius: 28px;
+    padding: 5px;
+    background-color: white;
+    color: #555;
+    position: absolute;
+    margin-top: 20px;
+}
+.tipAuth>img {
+    width: 100px;
+    border-radius: 17px;
+}
+#menu {
+    padding-top: 36px;
+}
+.my-error {
+    font-weight: normal;
+    font-size: 12px;
+    color: red;
+}
+li.first_level>a {
+    color: #666;
+}
+li.first_level {
+    padding: 10px;
+}
+li.first_level:hover {
+    cursor: pointer;
+    color:#ED6C2C;
+    background-color: #fff;
+    border-left: 5px solid #ED6c2c;
+}
+li.first_level>a:hover{
+    color:#ED6C2C;
+    text-decoration: none;
+}
+.second_level_title:hover{
+    background-color: #ccc;
+    cursor: pointer;
+}
+.shipperTitle:hover{
+    background-color: #ccc;
+    cursor: pointer;
+}
+.clickLevel{
+    color:#ED6C2C;     !important;
+    text-decoration: none; !important;
+    background-color: #fff;
+    border-left: 5px solid #ED6c2c;!important;
+}
+.clickLevel>a{
+    color: #666;
+    border-left: 0px;
+}
+#headPic>img {
+    border-radius: 50%;
+}
+#headPic {
+    display: inline-block;
+}
+#telephoneNum {
+    font-size: 14px;
+    padding: 7px;
+    width: 400px;
+}
+#headName {
+    display: inline-block;
+    font-size: 20px;
+    padding: 7px;
+    width: 80px;
+}
+#changePsd {
+    display: inline-block;
+    color: #31708f;
+    font-size: 13px;
+    cursor: pointer;
+    margin-left: 100px;
+}
+.carInfo {
+    margin-top: 50px;
+}
+.shopInfo {
+    margin-top: 50px;
+}
+.headInfo {
+    display: inline-block;
+    margin-left: 20px;
+    width: 400px;
+}
+#ownerAuth,#shipperAuth {
+    height: 170px;
+    line-height: 170px;
+    margin-left: 30px;
+}
+.authentication{
+    background-color: #fff;
+}
+.fontA {
+    display: inline-block;
+    width: 400px;
+}
+.tipA {
+    font-size: 7px;
+    color: #666;
+    display: inline-block;
+    position: absolute;
+    top: 15px;
+}
+.authss {
+    display: inline-block;
+    margin-left: 17px;
+    position: absolute;
+}
+.btnAuth ,.AuthInfo,.authing,.ShipperAuth{
+    cursor: pointer;
+    display: inline-block;
+    margin-left: 60%;
+    background-color: #ED6C2C;
+    height: 40px;
+    line-height: 40px;
+    width: 100px;
+    text-align: center;
+    border-radius: 11px;
+    color: white;
+}
+.authing{
+    display: inline-block;
+    margin-left: 60%;
+    background-color: rgba(237, 108, 44, 0.47);
+    height: 40px;
+    line-height: 40px;
+    width: 100px;
+    text-align: center;
+    border-radius: 11px;
+    color: white;
+}
+.btnAuth:hover {
+    background-color: #f2dede;
+    color: #ED6C2C;
+
+}
+.ShipperAuth:hover{
+    background-color: #f2dede;
+    color: #ED6C2C;
+}
+.carTip>span {
+    font-size: 12px;
+    color: #666;
+}
+.shopTip>span{
+    font-size: 12px;
+    color: #666;
+}
+.carTip,.shopTip {
+    width: 100%;
+    height: 50px;
+    background-color: #fff;
+    line-height: 50px;
+    font-size: 14px;
+    padding-left: 10px;
+    color: #555;
+}
+.ownerInfo {
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+}
+label.col-sm-2.control-label {
+    width: 100px;
+    font-weight: normal;
+}
+.identityPicss {
+    position: relative;
+}
+.identityExample {
+    width: 288px;
+    display: inline-block;
+    position: absolute;
+    left: 339px;
+    top: 20px;
+    font-size: 12px;
+    color:red;
+}
+.identityExample {
+    color: red !important;
+}
+.identityPics.col-sm-10 {
+    width: 290px;
+    height: 184px;
+    border: 1px solid #ccc;
+    line-height: 180px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.identityPics>img {
+    max-width: 258px;
+    max-height: 148px;
+}
+.cgPics{
+    width: 290px;
+    height: 228px;
+    border: 1px solid #ccc;
+    line-height: 180px;
+    margin-top: 12px;
+    margin-left: 20px;
+    padding-top: 15px;
+}
+.cgPics>img{
+    max-width: 258px;
+    max-height: 200px;
+}
+.subBtn {
+    margin: 3px;
+    background-color: #ED6C2C;
+    color: white;
+}
+.subBtn:hover {
+    background-color: #f2dede;
+    color: #ED6C2C;
+}
+ul.second_level {
+    /* padding: 10px; */
+    /* margin-left: 15px; */
+    border: 1px solid #eee;
+    margin-top: 10px;
+}
+li.second_level_title,.shipperTitle {
+    background-color: white;
+    margin: 10px;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 15px;
+}
+li.second_level_title>a {
+    color: #ED6C2C;
+}

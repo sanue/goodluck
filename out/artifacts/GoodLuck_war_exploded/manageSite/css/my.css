@@ -1,0 +1,56 @@
+.delete-failed{
+    position: relative;
+}
+.delete-failed::before{
+    content: "删除失败.";
+    display: block;
+    width:60px;
+    height: 30px;
+    color: red;
+    text-align: center;
+    position: absolute;
+    top:-30px;
+    left: 0px;
+}
+.delete-success{
+    position: relative;
+}
+.delete-success::before{
+    content: "删除成功.";
+    display: block;
+    width:60px;
+    height:30px;
+    color: green;
+    text-align: center;
+    position: absolute;
+    top:-30px;
+    left: 0px;
+}
+.applyAd{
+    position: fixed;
+    display: none;
+    width: 120px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 10px;
+    text-align: center;
+    background: #2d88ee;
+    color: #fff;
+    top:calc(50% - 25px);
+    left:calc(50% - 60px);
+    z-index: 9999;
+}
+.cancelAd{
+    position: fixed;
+    display: none;
+    width: 120px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 10px;
+    text-align: center;
+    background: #2d88ee;
+    color: #fff;
+    top:calc(50% - 25px);
+    left:calc(50% - 60px);
+    z-index: 9999;
+}

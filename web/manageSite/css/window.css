@@ -1,0 +1,95 @@
+@CHARSET "UTF-8";
+ .button {
+            background: #E1373A;
+            border: none;
+            color: white;
+            width: 60px;
+            height: 30px;
+        }
+
+        .dialog{
+            /*绝对定位*/
+            /*position: absolute;*/
+            /*宽和高覆盖整个屏幕*/
+            /*left: 0px;*/
+            /*right: 0px;*/
+            /*top: 0px;*/
+            /*bottom:0px;*/
+            /*背景透明*/
+            /*background: rgba(51, 51, 51, 0.3);*/
+            /*设置对话框的层*/
+            /*z-index: 99999;*/
+            /*默认不是显示的*/
+
+
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(51, 51, 51, 0.3);;
+            z-index: 9998;
+
+
+            display:none;
+        }
+
+        .dialog-body{
+            /*宽和高仅供参考*/
+            width: 400px;
+            min-height: 50px;
+            background: #fff;
+            margin: 100px auto;
+            border: 5px solid #C6C7C6;
+            border-radius: 5px;
+        }
+         .dialog-body div{
+         	width: 200px;
+            min-height: 100px;
+             margin: 50px auto;
+            light-height:100px;
+         }
+       
+        #body button {
+            background: #E1373A;
+            border: none;
+            color: white;
+            width: 380px;
+            height: 40px;
+            letter-spacing: 20px;
+            font-size: 18px;
+            font-family: 微软雅黑;
+            margin-top: 20px;
+        }
+        .a-upload {
+    padding: 4px 10px;
+    height: 20px;
+    line-height: 20px;
+    position: relative;
+    cursor: pointer;
+    color: #888;
+    background: #fafafa;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1
+}
+
+.a-upload  input {
+    position: absolute;
+    font-size: 100px;
+    right: 0;
+    top: 0;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    cursor: pointer
+}
+
+.a-upload:hover {
+    color: #444;
+    background: #eee;
+    border-color: #ccc;
+    text-decoration: none
+}

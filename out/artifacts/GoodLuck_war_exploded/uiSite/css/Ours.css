@@ -1,0 +1,126 @@
+.Lk1_instruction{
+    height: 415px;
+    background: #f6f7f9;
+}
+.Lk2_instruction{
+    height: 480px;
+    background: #fff;
+}
+.Lk3_instruction{
+    height: 414px;
+    background: #f6f7f9;
+}
+.lk_title {
+    height: 176px;
+    width: 100%;
+    text-align: center;
+    padding-top:80px;
+}
+.lk_title h2{
+    position: relative;
+    color: #333;
+    font-size: 26px;
+    line-height: 67px;
+
+}
+.lk_title b{
+    display: block;
+    width: 65px;
+    height: 4px;
+    background: #ff5900;
+    margin: 0 auto 37px;
+}
+
+.cnt{
+    width: 960px;
+    height: auto;
+    text-align: left;
+    border: 0;
+    margin: 0 auto;
+    background: 0;
+}
+.cnt p{
+    line-height: 35px;
+    color: #666;
+    font-size: 16px;
+    text-indent: 2em;
+    margin-bottom: 28px;
+}
+.contactus{
+    height: 380px;
+    background: #fff;
+}
+.about_contact{
+    height: 50px;
+    width: 960px;
+    margin-top: 65px;
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+.about_contact dl {
+    float: left;
+    width: 50%;
+}
+dl{
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px
+}
+.about_contact dd img {
+    border-radius: 50%;
+}
+.about_contact dt {
+    line-height: 50px;
+    margin-left: 16px;
+}
+.about_contact dd, .about_contact dt {
+    float: left;
+    position: relative;
+    left: 30%;
+}
+a, a:hover, a:link, a:visited {
+    text-decoration: none;
+    outline: 0;
+    border: 0;
+    /*color: #333;*/
+}
+.contacto {
+    width: 960px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.contacto div {
+    font-size: 16px;
+    line-height: 97px;
+    float: left;
+    margin-right: 34px;
+}
+.about_contacto_weix{
+    position: relative;
+}
+.weixin{}
+.about_contacto_weix .weixin {
+    position: absolute;
+    top: -215px;
+    right: 100px;
+    display: none;
+}
+.p_img1 {
+    display: inline;
+    width: 300px;
+    height: 240px;
+    background: pink;
+    border: solid 2px pink;
+    padding-right: 10px;
+}
+.cnt1>img,.cnt3>img{
+    display: inline-block;
+    width: 230px;
+}
+.cnt1 p,.cnt3 p{
+    display: inline-block;
+    width: 670px;
+    margin-left: 10px;}

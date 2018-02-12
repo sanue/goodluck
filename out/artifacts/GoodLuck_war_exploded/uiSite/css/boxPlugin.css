@@ -1,0 +1,632 @@
+@charset "utf-8";
+.boxPlugin {
+    margin-bottom: 17px
+}
+
+.boxPlugin .boxTit {
+    background: #f4f4f4;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 20px;
+    font-size: 14px;
+    border: 1px solid #e0e0e0
+}
+
+.boxPlugin .boxBody {
+    padding: 18px 10px;
+    border: 1px solid #e0e0e0;
+    border-top: 0
+}
+
+.boxPlugin .boxBody2 {
+    padding: 0
+}
+
+.boxPlugin .frmLine {
+    margin-bottom: 18px;
+    min-height: 32px
+}
+
+.boxPlugin .dateInput {
+    *display: inline;
+    *zoom: 1;
+    *margin-right: 4px
+}
+
+.frmLine {
+    min-height: 50px
+}
+
+.sch {
+    float: left;
+    margin-right: 20px;
+    border: 1px solid #d7d7d7;
+    border-radius: 2px;
+    padding: 5px 0;
+    position: relative;
+    height: 34px
+}
+
+.sch.schCorange {
+    border-color: #fc5a1f
+}
+
+.sch .tit {
+    padding: 0 15px 0 10px;
+    float: left;
+    text-align: right;
+    font-size: 14px;
+    border-right: 1px solid #d7d7d7
+}
+
+.sch.schCorange .tit {
+    border-color: #fc5a1f
+}
+
+.frmLine .sch:last-child {
+    margin-right: 0
+}
+
+.frmLine .sch .btn:last-child {
+    margin-right: 0
+}
+
+.boxPlugin .lj_select {
+    float: left
+}
+
+.boxPlugin .lj_select .area_name {
+    border: 1px solid #c1c1c1;
+    border-radius: 3px;
+    width: 140px;
+    padding: 0 5px
+}
+
+.boxPlugin .lj_select .city_content {
+    border-top: solid 1px #c1c1c1;
+    top: 34px
+}
+
+.selector select {
+    width: 152px;
+    border: solid 1px #c1c1c1
+}
+
+.noBod {
+    border: none !important
+}
+
+.sch .area_name {
+    width: 300px;
+    height: 21px;
+    line-height: 21px;
+    border: 0
+}
+
+.sch .area_title {
+    padding-left: 15px
+}
+
+.sch .txt {
+    padding-left: 12px
+}
+
+.sch .inMiddle {
+    width: 185px
+}
+
+.sch .inLarge {
+    width: 360px
+}
+
+.tablePlugin {
+    table-layout: fixed
+}
+
+.tablePlugin thead th {
+    border-bottom: 1px solid #ebebeb;
+    height: 43px;
+    font-weight: normal
+}
+
+.tablePlugin thead th span {
+    display: block;
+    border-right: 1px solid #ebebeb
+}
+
+.tablePlugin thead th:last-child span {
+    border-right: 0
+}
+
+table.orderList thead td {
+    border-bottom: 0
+}
+
+table.orderList tbody td {
+    height: 58px;
+    margin: 10px 0;
+    border-top: 1px solid #ebebeb;
+    border-bottom: 0
+}
+
+table.orderList tbody td.open {
+    border-left: 1px solid red;
+    border-right: 1px solid red;
+    border-bottom: 1px solid red
+}
+
+table.orderList tr.active td {
+    border-top: 1px solid red;
+    background: #fef8f2;
+    border-bottom: 1px solid #fef8f2
+}
+
+table.orderList tr.active td:first-child {
+    border-left: 1px solid red
+}
+
+table.orderList tr.active td:last-child {
+    border-right: 1px solid red
+}
+
+.pagSizeSelect {
+    font-size: 14px;
+    padding-left: 40px
+}
+
+.pagSizeSelect select {
+    font-size: 12px;
+    height: 22px;
+    line-height: 22px;
+    padding-left: 10px
+}
+
+.o_city {
+    width: 4em;
+    word-wrap: break-word;
+    word-break: break-all;
+    white-space: normal;
+    text-align: center
+}
+
+.o_city .pro {
+    display: inline-block
+}
+
+.o_city .city {
+    display: inline-block
+}
+
+.o_time {
+    width: 80px;
+    margin: 0 auto;
+    display: block;
+    word-wrap: break-word;
+    word-break: break-all;
+    white-space: normal;
+    text-align: center
+}
+
+.o_payInfo {
+    width: 19%;
+    display: inline-block
+}
+
+.car_info {
+    width: 300px
+}
+
+.owner_info {
+    width: 200px
+}
+
+.frmLine1 .tit {
+    display: inline-block
+}
+
+.frmLine1 .txt {
+    display: inline-block
+}
+
+.boxTit {
+    position: relative
+}
+
+.box-jzzc {
+    margin-bottom: 10px;
+    border: 0
+}
+
+.box-jzzc .boxBody {
+    border-bottom: 0;
+    border-top: 1px solid #e0e0e0
+}
+
+.box-jzzc .boxBody .sch {
+    margin-right: 10px
+}
+
+.box-jzzc .boxBody .sch:last-child {
+    margin-right: 0
+}
+
+.box-jzzc .boxBody .btns {
+    padding-left: 10px;
+    margin-top: -1px
+}
+
+.selectType {
+    position: relative;
+    border: 1px solid #e0e0e0;
+    border-top: 0
+}
+
+.selectHead {
+    position: absolute;
+    top: 8px;
+    left: 0;
+    width: 81px;
+    text-align: right;
+    line-height: 24px
+}
+
+.selectPanelBox {
+    position: relative;
+    padding: 6px 10px 6px 80px;
+    border-top: 0;
+    overflow: hidden
+}
+
+.selectPanelBox ul {
+    height: 26px;
+    overflow: hidden
+}
+
+.boxLaunch ul {
+    height: auto;
+    overflow: auto
+}
+
+.selectBody li {
+    width: 90px;
+    line-height: 14px;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1
+}
+
+.selectBody li a {
+    display: inline-block;
+    *zoom: 1;
+    padding: 5px 10px;
+    border: solid 1px #fff;
+    border-radius: 2px
+}
+
+.selectBody li a:hover, .selectBody li .active {
+    background: #fe6b1e;
+    border: solid 1px #fe6b1e;
+    color: #fff
+}
+
+.J_ToggleItems {
+    position: absolute;
+    width: 50px;
+    padding-left: 5px;
+    border: solid 1px #e0e0e0;
+    line-height: 24px;
+    top: 6px;
+    right: 10px;
+    cursor: pointer
+}
+
+.J_ToggleItems .comTips {
+    position: absolute;
+    right: 5px;
+    top: 5px
+}
+
+.sendSmsResult {
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding: 10px 0;
+    line-height: 32px
+}
+
+.sendSmsResult .btn {
+    margin-left: 5px
+}
+
+.sendSuccess {
+    width: 817px;
+    float: left;
+    text-align: center;
+    padding: 10px 0
+}
+
+.boxPlugin2 .boxTit {
+    height: 30px;
+    padding: 8px 0;
+    line-height: 30px;
+    font-size: 14px;
+    text-indent: 10px
+}
+
+.boxPlugin2 .boxTit .boxTitOpt {
+    float: right;
+    font-weight: normal
+}
+
+.boxPlugin2 .boxTit .split {
+    width: 9px;
+    display: inline-block;
+    line-height: 14px;
+    font-size: 12px;
+    height: 14px;
+    border-left: solid 2px #ff6b00
+}
+
+.boxPlugin2 .boxBody {
+    min-height: 50px;
+    margin-bottom: 20px;
+    border: solid 1px #e0e0e0;
+    background-color: #f9f9f9
+}
+
+.boxPlugin2 .boxBody2 {
+    border: 0;
+    background: 0
+}
+
+.seniorBox {
+    border: 1px solid #e0e0e0;
+    border-top: 0;
+    border-bottom: 0
+}
+
+.senior_tit {
+    position: relative;
+    width: 112px;
+    margin: 0 auto;
+    height: 44px;
+    line-height: 44px;
+    text-align: right;
+    padding-right: 20px;
+    cursor: pointer
+}
+
+.comTips b {
+    position: absolute;
+    display: block;
+    top: 6px;
+    left: 0;
+    width: 0;
+    height: 0;
+    font-size: 0;
+    line-height: 0;
+    border-bottom: 5px solid #fe6b1e;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent
+}
+
+.comTips {
+    width: 10px;
+    height: 10px;
+    line-height: 10px;
+    text-indent: 12px;
+    cursor: pointer
+}
+
+.senior_tit .comTips {
+    position: absolute;
+    top: 13px;
+    right: 5px
+}
+
+.comTips .upB {
+    border-bottom: 0;
+    border-top: 5px solid #fe6b1e
+}
+
+.seniorSelBox {
+    border: solid 1px #e9e9e9;
+    border-top: 0;
+    background: #f8f8f8
+}
+
+.over_clear {
+    overflow: hidden;
+    zoom: 1
+}
+
+.k_sch_tabs {
+    border-top: solid 1px #e9e9e9;
+    margin-bottom: -1px;
+    height: 46px
+}
+
+.selectTrunkType .k_sch_tabs {
+    border: solid 1px #e9e9e9;
+    height: 45px
+}
+
+.selectTrunkType .over_clear {
+    overflow: inherit
+}
+
+.go_create {
+    color: #fe6b1e
+}
+
+.go_create:hover {
+    text-decoration: underline
+}
+
+.roadLineBox {
+    border: solid 1px #e0e0e0;
+    border-top: 0;
+    border-bottom: 0
+}
+
+.selectLinePanel {
+    padding: 10px 25px 10px 0;
+    text-align: center
+}
+
+.selectLinePanel .sch {
+    display: inline-block;
+    *zoom: 1;
+    text-align: left;
+    border: 0;
+    float: none
+}
+
+.selectLinePanel .lj_select .area_name {
+    width: 220px
+}
+
+.selectLinePanel .sch .tit {
+    width: 11em;
+    border-right: 0
+}
+
+#startEnd .sch .tit {
+    width: 6em
+}
+
+#otherInfo .sch .tit {
+    width: 7em
+}
+
+.roadLineBtn {
+    text-align: center;
+    padding: 0 0 10px 0;
+    border: solid 1px #e9e9e9;
+    border-top: 0;
+    margin-bottom: 10px;
+    margin-top: -1px
+}
+
+.RadBtn {
+    width: 19px;
+    height: 18px;
+    vertical-align: text-bottom;
+    margin: 0 5px 0 20px;
+    display: inline-block;
+    line-height: 18px;
+    background-image: url(../imgs/109.png);
+    background-position: 0 -18px;
+    cursor: pointer
+}
+
+.RadBtnActive {
+    background-position: 0 0
+}
+
+.loadWeight {
+    float: left;
+    width: 200px;
+    margin-top: 4px
+}
+
+#accurateRadio .sch .txt {
+    float: left
+}
+
+.orderBox {
+    position: relative;
+    height: 44px;
+    background: #f9f9f9;
+    border: solid 1px #e9e9e9
+}
+
+.orderBtns {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    width: 230px;
+    padding: 11px 0 0 20px
+}
+
+.screenVehicle {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    width: 510px;
+    text-align: center
+}
+
+.screenVehicle .checker {
+    margin-left: 20px
+}
+
+.vehicleCount {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    width: 230px;
+    line-height: 44px;
+    text-align: right;
+    color: #999
+}
+
+.sendBtnPanel {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    line-height: 32px;
+    padding: 0 0 0 20px
+}
+
+#selectBtnSub {
+    margin-right: 0
+}
+
+.startEndSelect {
+    padding: 20px 0 0 0;
+    border: 1px solid #e0e0e0;
+    border-top: 0
+}
+
+.selector-set {
+    padding: 15px 20px 15px;
+    height: 24px;
+    margin-bottom: 10px;
+    border: 1px solid #e9e9e9
+}
+
+.selector-set .tit {
+    float: left
+}
+
+.selector-set .cnt {
+    float: left
+}
+
+.selector-set [class^="ico_"], .selector-set [class*=" ico_"] {
+    margin-right: -8px
+}
+
+.selector-set .cnt .btn {
+    margin-right: 10px
+}
+
+.selector-set .loadWeight {
+    float: none;
+    margin: 0
+}
+
+.noSchRes {
+    min-height: 200px
+}
+
+.hintBox {
+    padding: 30px 0;
+    width: 180px;
+    margin: 0 auto
+}
+
+.hintBox p {
+    line-height: 21px
+}

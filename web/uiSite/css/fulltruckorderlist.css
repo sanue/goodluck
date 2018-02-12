@@ -1,0 +1,976 @@
+.table_scrollable {
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden
+}
+
+.tab_content .content {
+    padding-top: 15px
+}
+
+.order_ope {
+    height: 32px;
+    margin-bottom: 10px
+}
+
+.order_ope a {
+    display: inline-block;
+    float: right
+}
+
+.order_ope .order_add {
+    height: 32px;
+    line-height: 32px;
+    text-indent: 20px;
+
+    font-size: 16px;
+    color: #f76350;
+    margin-right: 15px
+}
+
+.order_ope .shun {
+    width: 94px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    font-size: 16px
+}
+
+select {
+    height: 26px
+}
+
+.tag {
+    width: 40px
+}
+
+table.due_out .send_out {
+    display: none
+}
+
+#orderInfo {
+    width: 520px;
+    height: 560px;
+    left: 50%;
+    top: 50%;
+    margin-left: -260px !important;
+    margin-top: -280px !important;
+    margin-top: 0;
+    position: fixed !important;
+    position: absolute;
+    _top: expression(eval(document.compatMode && document.compatMode=='CSS1Compat') ? documentElement.scrollTop+(document.documentElement.clientHeight-this.offsetHeight)/2:document.body.scrollTop+(document.body.clientHeight - this.clientHeight)/2)
+}
+
+.special_line {
+    width: auto;
+    height: 130px;
+    padding-top: 20px;
+    border: 1px solid #d3dadd;
+    margin-bottom: 12px
+}
+
+.special_line .left {
+    width: 368px;
+    padding-right: 2px;
+    float: left
+}
+
+.special_line .way:after {
+    content: '\20';
+    display: block;
+    height: 0;
+    line-height: 0;
+    font-size: 0;
+    clear: both;
+    overflow: hidden
+}
+
+.special_line .way .address, .special_line .way .type {
+    float: left;
+    height: 50px
+}
+
+.special_line .way .address {
+    width: 130px;
+    line-height: 50px;
+    font-size: 26px;
+    color: #667073;
+    text-align: center
+}
+
+.special_line .way .type {
+    width: 108px
+}
+
+.special_line .way .type_text, .special_line .way .cargo_type {
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+    font-size: 14px;
+    text-align: center
+}
+
+.special_line .type .type_img {
+    width: 108px;
+
+}
+
+.special_line .type.back_forth {
+    color: #fd7465
+}
+
+.special_line .type.back_forth .type_text {
+    margin-bottom: -5px
+}
+
+.special_line .type.back_forth .type_img {
+    height: 20px;
+    background-position: 0 0;
+    margin-bottom: -5px
+}
+
+.special_line .type.one_way {
+    height: 44px;
+    color: #5ab6fd;
+    margin-top: 4px
+}
+
+.special_line .type.one_way .type_text {
+    margin-bottom: -5px
+}
+
+.special_line .type.one_way .type_img {
+    height: 7px;
+    background-position: 0 -20px
+}
+
+.special_line .way_tag {
+    width: 100%;
+    height: 26px;
+    text-align: center;
+    padding-top: 28px;
+    margin-top: -25px
+}
+
+.special_line .way_tag span {
+    display: inline-block;
+    width: auto;
+    height: 24px;
+    line-height: 24px;
+    padding: 0 10px;
+    border: 1px solid #a9b7bc;
+    font-size: 14px;
+    color: #868f91;
+    margin: 0 2px;
+    width: 78px;
+    overflow: hidden
+}
+
+.special_line .outlets {
+    width: 337px;
+    padding-top: 5px;
+    float: left
+}
+
+.special_line .outlets .box {
+    width: 320px;
+    height: 48px;
+    padding-left: 17px;
+    margin-bottom: 8px;
+}
+
+.special_line .outlets .box div {
+    height: 24px;
+    line-height: 24px;
+    font-size: 14px;
+    color: silver;
+    white-space: nowrap
+}
+
+.special_line .outlets .box span {
+    margin-right: 30px
+}
+
+.special_line .ope {
+    width: 113px;
+    padding-top: 10px;
+    text-align: center;
+    float: left
+}
+
+.special_line .ope a {
+    font-size: 16px;
+    color: #667073
+}
+
+.special_line .ope a.input {
+    color: #f76350
+}
+
+.special_line .ope div {
+    margin-bottom: 16px
+}
+
+.special_line_box .special_line .outlets .box {
+    width: 420px
+}
+
+.special_line_box .ope {
+    width: 100%;
+    height: 18px;
+    text-align: right;
+    margin-bottom: 24px
+}
+
+.special_line_box .ope a {
+    display: inline-block;
+    height: 18px;
+    line-height: 18px;
+    padding-left: 20px;
+    font-size: 16px;
+    color: #667073;
+    margin: 0 12px 0 38px
+}
+
+.special_line_box .ope a:hover {
+    text-decoration: underline
+}
+
+.special_line_box .ope a.edit {
+    background-position: 0 0
+}
+
+.special_line_box .ope a.del {
+    background-position: 0 -18px
+}
+
+.special_line_add {
+    display: block;
+    height: 22px;
+    line-height: 22px;
+    font-size: 20px;
+    color: #f76350;
+    padding: 10px 0 0 32px;
+}
+
+.special_line_add:hover {
+    text-decoration: underline
+}
+
+.lj_select {
+    display: inline-block;
+    width: 320px;
+    text-align: left
+}
+
+.lj_select .area_name {
+    border: solid 1px #e0e0e0;
+    border-radius: 3px
+}
+
+.lj_select input.area_title {
+    border: 0
+}
+
+.contactPhoneWar label.error {
+    left: 154px
+}
+
+.info_box .info_content {
+    padding: 20px 0
+}
+
+.info_box.border .info_title {
+    margin-bottom: -1px;
+    position: relative;
+    z-index: 1
+}
+
+.info_box.border .info_content {
+    width: auto;
+    border: 1px solid #d1d1d1
+}
+
+#orderInfo .layer_content_box {
+    height: 560px;
+    padding: 0 12px;
+    overflow: hidden;
+    overflow-y: auto
+}
+
+#orderInfo .info_box {
+    margin-bottom: 5px;
+    line-height: 24px;
+    clear: both
+}
+
+#orderInfo .info_box:after {
+    content: '\20';
+    display: block;
+    height: 0;
+    line-height: 0;
+    clear: both;
+    font-size: 0
+}
+
+#orderInfo .info_box .info_title {
+    color: #303030;
+    background: #ddd;
+    padding: 0 5px
+}
+
+#orderInfo .info_content {
+    padding: 0 6px 0 8px;
+    position: relative
+}
+
+#orderInfo .status {
+    font-size: 16px;
+    color: #ffc14a;
+    position: absolute;
+    top: 10px;
+    right: 14px
+}
+
+#orderInfo .pickup {
+    width: 100px;
+    height: 30px;
+    font-size: 16px;
+    position: absolute;
+    bottom: 10px;
+    right: 6px
+}
+
+#orderInfo .cargo_img {
+    width: 100px;
+    height: 100px;
+    float: right;
+    padding-top: 6px
+}
+
+#orderInfo .info {
+    padding: 8px 0;
+    border-bottom: 1px dashed #e6e6e6;
+    height: 74px;
+    overflow: hidden;
+    zoom: 1
+}
+
+#orderInfo .info:after {
+    content: '\20';
+    display: block;
+    height: 0;
+    line-height: 0;
+    clear: both;
+    font-size: 0
+}
+
+#orderInfo .info img {
+    width: 74px;
+    height: 74px;
+    float: left
+}
+
+#orderInfo .info .text {
+    float: left;
+    margin-left: 10px;
+    line-height: 24px;
+    color: #3d3b3b
+}
+
+span.has_line {
+    padding-right: 10px;
+    margin-right: 10px
+}
+
+.specialSec {
+    clear: both;
+    height: 76px
+}
+
+.specialSec2 {
+    height: 50px
+}
+
+.specialSec .specialTit {
+    width: 75px;
+    height: 76px;
+    line-height: 76px;
+    float: left;
+    text-align: center
+}
+
+.specialSec2 .specialTit {
+    height: 50px;
+    line-height: 50px
+}
+
+.specialSec2 .special_line {
+    border: 0;
+    box-shadow: none;
+    padding: 0;
+    margin: 0;
+    height: auto
+}
+
+.specialSec2 .special_line .way {
+    overflow: hidden
+}
+
+.specialSec2 .special_line .way .address {
+    font-size: 16px;
+    width: 80px
+}
+
+.specialSec2 .special_line .way_tag {
+    text-align: left;
+    padding: 0;
+    margin: 0
+}
+
+.specialSec2 .special_line .way_tag span {
+    background: #ddd;
+    color: #fff;
+    font-size: 12px;
+    border: 0;
+    width: 4em;
+    padding: 0 3px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center
+}
+
+.orderDetailOption {
+    float: right;
+    padding: 8px 0;
+    width: 88px
+}
+
+.orderDetailOption .btn:first-child {
+    margin-bottom: 8px
+}
+
+.J_orderOpt {
+    display: inline-block;
+    width: 64px;
+    height: 26px;
+    line-height: 26px;
+    background-color: #ff4d35;
+    border-radius: 13px;
+    -moz-border-radius: 13px;
+    font-size: 12px;
+    color: #fff !important;
+    margin-right: 3px
+}
+
+#lookQuote {
+    width: 536px;
+    height: 477px
+}
+
+#lookQuote .lookQuote_boxs {
+    width: 100%;
+    height: 370px;
+    overflow-y: auto;
+    padding-top: 2px
+}
+
+#lookQuote .box {
+    width: auto;
+    height: 140px;
+    padding: 12px 14px 0;
+    margin-top: -1px;
+    position: relative;
+    background: #fff;
+    border: solid 1px #fff
+}
+
+#lookQuote .text .name {
+    margin-right: 5px
+}
+
+#lookQuote .company .text .name {
+    color: #f95641;
+    font-weight: bold
+}
+
+#lookQuote .text .num {
+    margin-left: 5px;
+    color: #f95641
+}
+
+#lookQuote .box .btn {
+    position: absolute;
+    top: 75px;
+    right: 14px
+}
+
+#lookQuote .agentBox {
+    height: 124px;
+    position: relative;
+    border-bottom: solid 1px #ececec;
+    z-index: 1
+}
+
+#lookQuote .agentBox:hover {
+    border: solid 1px #e5e5e5;
+    z-index: 10
+}
+
+#lookQuote .choosesHis:hover {
+    background: #ff6a00;
+    color: #fff
+}
+
+#lookQuote .driver_info {
+    width: 100%;
+    height: 82px;
+    border-bottom: 1px dashed #e6e6e6;
+    margin-bottom: 3px;
+    position: relative
+}
+
+#lookQuote .driver_info .official_logo {
+    position: absolute;
+    top: -5px;
+    left: -10px;
+    border: 0
+}
+
+#lookQuote .img {
+    width: 75px;
+    height: 75px
+}
+
+#lookQuote .driver .img {
+    float: left;
+    margin-right: 10px
+}
+
+#lookQuote .driver .text {
+    float: left
+}
+
+#lookQuote .text div {
+    height: 24px;
+    line-height: 24px;
+    font-size: 14px;
+    color: #3d3b3b
+}
+
+#lookQuote .agentBox .text div {
+    height: 34px;
+    line-height: 34px
+}
+
+#lookQuote .agentBox .text .s {
+    height: 20px;
+    line-height: 20px
+}
+
+#lookQuote .agentBox .text .agentDetail {
+    margin-left: 33px
+}
+
+#lookQuote .agentBox .text .agentDetail:hover {
+    text-decoration: underline
+}
+
+#lookQuote .agentBox .official_logo {
+    position: absolute;
+    top: -5px;
+    left: -10px;
+    border: 0
+}
+
+#lookQuote .left {
+    width: 75px;
+    height: 75px;
+    border: solid 1px #ccc;
+    float: left;
+    margin: 12px 10px 0 0;
+}
+
+#lookQuote .right {
+    float: left
+}
+
+#lookQuote .box .orderPrice {
+    top: 45px;
+    color: #ff6a00 !important;
+    border: 0;
+    width: 10em;
+    text-align: right;
+    padding-right: 0;
+    font-size: 18px;
+    font-weight: normal
+}
+
+#lookQuote .box .orderPrice .s1 {
+    font-size: 14px
+}
+
+#lookQuote .countDown {
+    position: absolute;
+    top: 20px;
+    right: 14px;
+    width: 190px;
+    height: 21px;
+    line-height: 21px;
+    text-align: right
+}
+
+#lookQuote .countDown span {
+    display: inline-block;
+    padding: 0 5px;
+    border-radius: 3px;
+    background-color: #686868;
+    color: #fff;
+    margin: 0 3px
+}
+
+#lookQuote .disBox .text .s {
+    color: #999
+}
+
+#lookQuote .disBox .text .s i {
+    cursor: default
+}
+
+#lookQuote .disBox .text .name {
+    color: #999
+}
+
+#lookQuote .disBox .orderPrice {
+    color: #999 !important
+}
+
+#lookQuote .disBox .countDown {
+    color: #999
+}
+
+.dis-choose {
+    display: none
+}
+
+#lookQuote .disBox .dis-choose {
+    display: block
+}
+
+#lookQuote .contentBox {
+    padding-top: 0
+}
+
+.paging {
+    width: auto;
+    height: 40px;
+    padding-top: 24px
+}
+
+.paging div {
+    width: auto;
+    height: 40px;
+    float: right
+}
+
+.paging .prev, .paging .next {
+    width: 88px;
+    height: 38px;
+    line-height: 38px;
+    border: 1px solid #e1e1e1;
+    font-size: 16px;
+    color: #97a1aa;
+    text-align: center;
+    float: left;
+    margin-left: 3px;
+    cursor: pointer
+}
+
+.paging .box {
+    width: auto;
+    height: 40px;
+    float: left
+}
+
+.paging .box div {
+    width: 38px;
+    height: 38px;
+    line-height: 38px;
+    border: 1px solid #e1e1e1;
+    font-size: 16px;
+    color: #97a1aa;
+    text-align: center;
+    float: left;
+    margin-left: 3px;
+    cursor: pointer
+}
+
+.paging .box div.visited {
+    background-color: #b8b8b8;
+    border-color: #b8b8b8;
+    color: #fff;
+    cursor: default
+}
+
+.order_ope .shun {
+    margin-right: 0
+}
+
+.color_red {
+    color: #f76350 !important
+}
+
+.linkPos .ico_007 {
+    vertical-align: top
+}
+
+.fulltruckDriverInfo .cell {
+    height: 20px;
+    line-height: 20px;
+    min-height: 20px
+}
+
+#J_popDriverList {
+    width: 530px
+}
+
+.driverTabPop .titlesBox .layer_close {
+    width: 25px;
+    height: 24px;
+    position: absolute;
+    right: 20px;
+    top: 24px;
+    cursor: pointer
+}
+
+.driverTabPop .titlesBox .layer_close:hover {
+    background-position: 0 -24px
+}
+
+.driverTabPop .vertialListBlock {
+    padding-top: 20px
+}
+
+.driverTabPop .titlesBox {
+    height: auto
+}
+
+.driverTabPop .titlesBox li {
+    font-size: 20px;
+    color: #333;
+    border-bottom: 1px solid #fc5a1f
+}
+
+.J_findDriver {
+    margin-top: 2px
+}
+
+.driverTabPop .nodata_notice a {
+    color: blue;
+    font-size: 14px
+}
+
+#J_confimToCarryPopLayer {
+    width: 420px
+}
+
+#J_confimToCarryPopLayer .form_box {
+    margin-bottom: 10px
+}
+
+#J_confimToCarryPopLayer .cont {
+    padding: 30px 0
+}
+
+#J_confimToCarryPopLayer label.error {
+    top: 28px
+}
+
+.orderInfoWar {
+    width: 12em;
+    text-align: center;
+    white-space: normal;
+    margin: 0 10px
+}
+
+.orderInfoWar1 {
+    width: 8em;
+    text-align: center;
+    white-space: normal;
+    margin: 0 10px
+}
+
+.sure_txt {
+    text-align: center
+}
+
+.web_im {
+    display: inline-block;
+    *zoom: 1;
+    width: 15px;
+    height: 15px;
+    margin-left: 3px;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+.im_light {
+    background-position: 0 0
+}
+
+.im_gray {
+    background-position: 0 -20px
+}
+
+.chengyun {
+    text-align: right;
+    padding: 0 25px
+}
+
+.tleft {
+    float: left
+}
+
+.phone_tip {
+    position: relative;
+    display: inline-block;
+    *zoom: 1;
+    width: 9px;
+    height: 14px;
+    margin-left: 3px;
+    cursor: pointer;
+    vertical-align: middle
+}
+
+.phone_tip em {
+    position: absolute;
+    top: -7px;
+    left: 10px;
+    display: none;
+    *zoom: 1;
+    width: 102px;
+    height: 27px;
+    line-height: 27px;
+    color: #fff;
+    text-indent: 12px;
+    text-align: left;
+}
+
+.optDetail {
+    width: 150px
+}
+
+#report_box_pop {
+    width: 433px;
+    height: 333px
+}
+
+#report_box_pop .contentBox {
+    padding: 0 20px 10px 20px
+}
+
+#report_box_pop .select_box {
+    margin-bottom: 10px
+}
+
+#report_box_pop .report_mark {
+    margin-bottom: 10px
+}
+
+#report_box_pop .select_box select {
+    width: 100%;
+    height: 30px;
+    border: solid 1px #d7d7d7;
+    border-radius: 3px
+}
+
+#report_box_pop .warn_box {
+    line-height: 25px;
+    color: #999
+}
+
+#report_box_pop .report_mark textarea {
+    display: block;
+    width: 383px;
+    padding: 5px;
+    height: 64px;
+    line-height: 21px;
+    resize: none;
+    border: solid 1px #d7d7d7;
+    border-radius: 5px
+}
+
+#report_box_pop .upload_list ul li {
+    float: left;
+    margin-right: 8px
+}
+
+#report_box_pop .upload_list ul .img_last {
+    margin-right: 0
+}
+
+#report_box_pop .img_upload {
+    width: 92px;
+    height: 92px;
+    position: relative
+}
+
+#report_box_pop .img_upload .img_box img {
+    width: 90px;
+    height: 90px;
+    border-radius: 3px
+}
+
+#report_box_pop .img_upload .img_box {
+    padding: 0;
+    border: 0
+}
+
+#report_box_pop .img_upload .swfBtn {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 92px !important;
+    padding: 0;
+    height: 92px;
+    margin: 0;
+    opacity: 0;
+    filter: alpha(opacity=0)
+}
+
+#report_box_pop .webuploader-pick {
+    width: 92px !important;
+    height: 92px
+}
+
+#report_box_pop .img_upload .img_box .previewWar {
+}
+
+.report_link .btn {
+    margin-top: 5px
+}
+
+.orderRank span {
+    color: #ff6a00;
+    font-weight: bold
+}
+
+#cancelOrder {
+    width: 440px
+}
+
+.timeAddQuery .sch {
+    margin-right: 10px
+}
+
+.timeAddQuery .lj_select {
+    float: left;
+    width: 230px;
+    position: static
+}
+
+.timeAddQuery .lj_select .area_name {
+    border: 0;
+    width: auto;
+    padding-left: 0
+}

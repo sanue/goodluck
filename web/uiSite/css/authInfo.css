@@ -1,0 +1,125 @@
+html{
+    font-family: "arial", "微软雅黑";
+    font-size: 85%;
+    color:#868686;
+}
+@media screen and (max-width: 2000px){
+    header{
+        height:30px;
+        line-height: 30px;
+        font-size: 12px;
+        color: white !important;
+        padding-left: 5%;
+        background-color: #242735;
+    }
+
+    .headerRight{
+        position: absolute;
+        right: 2%;
+    }
+    .headerTitle {
+        display: inline-block;
+        cursor: pointer;
+    }
+    .headerTitle>a{
+        color:white
+    }
+    .sectionTitle {
+        display: inline-block;
+    }
+    .sectionTitle>img {
+        vertical-align: middle;
+    }
+    .seOne{
+        border: 1px solid #ccc;
+    }
+    .width1003{
+        width: 1003px;
+        margin: auto;
+    }
+    .headerContent{
+        height:70px;
+        line-height: 70px;
+    }
+    .currentUserContent{
+        border-bottom:1px solid #ccc;
+    }
+    .UserInContent {
+        width: 400px;
+        padding: 20px;
+        position: relative;
+        height: 200px;
+        margin: 30px;
+    }
+    .UserInContent>img{
+        border-radius: 50%;
+        position: absolute;
+        width: 150px;
+        height:150px;
+    }
+    .basicInfo {
+        position: absolute;
+        left: 200px;
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .basicInfo>div:nth-child(1){
+        display: inline-block;
+    }
+    .basicInfo>a{
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .table {
+        padding: 10px;
+    }
+    .tb {
+        display: inline-block;
+        width: 420px;
+        margin: 10px;
+    }
+    footer {
+        height: 80px;
+        line-height: 80px;
+        border: 1px solid #ccc;
+        text-align: center;
+        position: absolute;
+        left: 0px;
+        right: 0px;
+    }
+}
+@media screen and  (max-width: 700px){
+    .headerContent {
+        height: 60px;
+        line-height: 60px;
+    }
+    .sectionTitle>img {
+        width: 140px;
+        height: 40px;
+    }
+    .width1003{
+        width: 700px;
+        margin: auto;
+    }
+    .UserInContent {
+        width: 300px;
+        height: 130px;
+    }
+    .UserInContent>img{
+        border-radius: 50%;
+        position: absolute;
+        width: 100px;
+        height:100px;
+    }
+    .basicInfo {
+        position: absolute;
+        left: 135px;
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .tb {
+        display: inline-block;
+        width: 300px;
+        margin: 10px;
+    }
+}

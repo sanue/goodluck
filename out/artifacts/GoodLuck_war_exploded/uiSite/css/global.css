@@ -1,0 +1,54 @@
+@media screen and (max-width: 1800px){
+img.reloimg {
+    vertical-align: middle;
+}
+html{
+    font-family: "Microsoft YaHei" !important;
+}
+._citys {
+    width: 460px !important;
+    margin-left: -10px !important;
+    margin-top: 4px !important;
+}
+}
+
+@media screen and (max-width: 900px){
+    .Gd_firof {
+        width: 500px;
+    }
+    .Tr_main_left_top{
+        width: 550px;
+    }
+    .Tr_mian_sach_sect dl{
+        width: 500px;
+    }
+    .collapse.in{
+        width: 550px;
+    }
+    .Tr_main_right {
+        width: 290px;
+        position: absolute;
+        right: 0px;
+    }
+    .Tr_main_left {
+        width: auto;
+    }
+    .Tr_main{
+        width: 850px !important;
+        min-width: 850px;
+    }
+    /*新闻*/
+    .cnt1 p, .cnt3 p,.cnt p{
+        width: 530px;
+        font-size: 14px;
+    }
+    .cnt ,.about_contact{
+        width: 900px;
+    }
+
+}
+@media screen and (max-width: 700px) {
+.Tr_main_right{
+    display: none;
+}
+}

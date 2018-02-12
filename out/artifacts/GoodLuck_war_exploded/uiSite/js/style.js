@@ -1,0 +1,26 @@
+// JavaScript Document
+$(function(){
+	$(".nav-toggle").click(function(){
+		$(this).toggleClass("nav-toggle-s");
+		$(".nav").toggle();
+		})
+	});
+/*首页JS*/
+$('#toggleCity').click(
+	function(){
+		$('.chooseCity').toggle();
+	}
+);
+$('.toggleBtn>div:nth-child(2)').click(function(){
+	$('.chooseCity').hide();
+});
+$('#register').hover(function(){
+	$('#register>img').attr('src','images/registerhover.png');
+},function(){
+	$('#register>img').attr('src','images/register.png');
+});
+$('#login').hover(function(){
+	$('#login>img').attr('src','images/loginhover.png');
+},function(){
+	$('#login>img').attr('src','images/login.png');
+});
